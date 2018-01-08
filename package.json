@@ -2,13 +2,12 @@
   "name": "serverless-export-functions-plugin",
   "version": "1.0.0",
   "description": "A Serverless plugin to export all functions",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.4"
   },
