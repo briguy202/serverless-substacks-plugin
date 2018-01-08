@@ -10,8 +10,8 @@ class ExportFunctionsPlugin {
     }
 
     execute() {
-        if (!this.serverless.service.resources.Resources) {
-            throw new this.serverless.classes.Error('This plugin needs access to Resources section of the AWS CloudFormation template');
+        if (!this.serverless.service.resources.Outputs) {
+            throw new this.serverless.classes.Error('This plugin needs access to Outputs section of the AWS CloudFormation template');
         }
 
         this.serverless.service.getAllFunctions().forEach((functionName) => {
