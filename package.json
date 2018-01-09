@@ -1,7 +1,7 @@
 {
-  "name": "serverless-export-functions-plugin",
+  "name": "serverless-substacks-plugin",
   "version": "1.0.0",
-  "description": "A Serverless plugin to export all functions",
+  "description": "A Serverless plugin to create dynamic substacks.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +11,8 @@
   "dependencies": {
     "lodash": "^4.17.4"
   },
-  "devDependencies": {
-  }
+  "peerDependencies": {
+    "serverless": "1.x"
+  },
+  "devDependencies": {}
 }
